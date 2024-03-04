@@ -1,0 +1,390 @@
+body {
+    background: none !important;
+}
+
+#containerOut {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    cursor: pointer;
+	opacity: 0;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #00000;
+    border-radius: 10px;
+	transition: 0.2s ease;
+	opacity: 1;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(40, 40, 40);
+    height: 772.8;
+    width: 500;
+    border: 2px solid #00000;
+    border-radius: 10px;
+    animation: fade-in 0.8s forwards;
+	opacity: 1;
+	   z-index: 8;
+}
+
+vendingmachine {
+    max-width:100%;
+    max-height:100%;
+    animation: fade-in 0.8s forwards;
+}
+#vendingmachine {
+   
+    border-radius: 20px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.buy {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #888;
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 46.2;
+    width: 84;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+	top: 342.88;
+    left: 428.4;
+    position: absolute;
+    z-index: 11;
+	transition: 0.2s ease;
+}
+.buy2 {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #888;
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 46.2;
+    width: 84;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+	   top: 388.92;
+    left: 428.4;
+    position: absolute;
+    z-index: 11;
+	transition: 0.2s ease;
+}
+.buy3 {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #888;
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 46.2;
+    width: 84;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none; 
+    position: absolute;
+    z-index: 11;
+	  top: 434.28;
+    left: 428.4;
+    position: absolute;
+    z-index: 11;
+	transition: 0.2s ease;
+}
+.buy4 {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #888;
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 46.2;
+    width: 84;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+	 top: 479.92;
+    left: 428.4;
+    position: absolute;
+    z-index: 11;
+	transition: 0.2s ease;
+}
+
+#buttonpart1 {
+    background-color: red;
+	 border-radius: 8px;
+	opacity: 0;
+	transition: 0.2s ease;
+	top: 341.88;
+    left: 428.4;
+    cursor: pointer;
+    position: absolute;
+    z-index: 13;
+	 height: 27.5px;
+    width: 100px;
+}
+
+#buttonpart2 {
+  background-color: blue;
+	 border-radius: 8px;
+	opacity: 0;
+	transition: 0.2s ease;
+	
+	     top: 364.98;
+    left: 428.4;
+	   cursor: pointer;
+    position: absolute;
+    z-index: 13;
+	 height: 27.5px;
+    width: 100px;
+}
+
+#buttonpart3 {
+    background-color: red;
+	 border-radius: 8px;
+	opacity: 0;
+	transition: 0.2s ease;
+	top: 388.08;
+    left: 428.4;
+    cursor: pointer;
+    position: absolute;
+    z-index: 13;
+	 height: 27.5px;
+    width: 100px;
+}
+
+#buttonpart4 {
+  background-color: blue;
+	 border-radius: 8px;
+	opacity: 0;
+	transition: 0.2s ease;
+	
+	     top: 411.18;
+    left: 428.4;
+	   cursor: pointer;
+    position: absolute;
+    z-index: 13;
+	 height: 27.5px;
+    width: 100px;
+}
+
+#buttonpart5 {
+    background-color: red;
+	 border-radius: 8px;
+	opacity: 0;
+	transition: 0.2s ease;
+	top: 434.28;
+    left: 428.4;
+    cursor: pointer;
+    position: absolute;
+    z-index: 13;
+	 height: 24.5px;
+    width: 100px;
+}
+
+#buttonpart6 {
+  background-color: blue;
+	 border-radius: 8px;
+	opacity: 0;
+	
+	
+	transition: 0.2s ease;
+	
+	     top: 454.86;
+    left: 428.4;
+	   cursor: pointer;
+    position: absolute;
+    z-index: 13;
+	 height: 25.5px;
+    width: 100px;
+}
+
+#buttonpart7 {
+    background-color: red;
+	 border-radius: 8px;
+	opacity: 0;
+	transition: 0.2s ease;
+	top: 477.12;
+    left: 428.4;
+    cursor: pointer;
+    position: absolute;
+    z-index: 13;
+	 height: 27.5px;
+    width: 100px;
+}
+
+#buttonpart8 {
+  background-color: blue;
+	 border-radius: 8px;
+	opacity: 0;
+	transition: 0.2s ease;
+	
+	     top: 499.8;
+    left: 428.4;
+	   cursor: pointer;
+    position: absolute;
+    z-index: 13;
+	 height: 24.5px;
+    width: 100px;
+}
+
+
+
+#light1 {
+	pointer-events: none;
+    background-color: yellow;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 351.34000000000003;
+    left: 488.04;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 10.92;
+    width: 12.6;
+}
+#light2 {
+	pointer-events: none;
+    background-color: yellow;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 372.18;
+    left: 488.04;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 10.92;
+    width: 12.6;
+}
+
+#light3 {
+	pointer-events: none;
+    background-color: yellow;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 397.38;
+    left: 488.04;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 10.92;
+    width: 12.6;
+}
+#light4 {
+	pointer-events: none;
+    background-color: yellow;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 419.22;
+    left: 488.04;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 10.92;
+    width: 12.6;
+}
+
+
+#light5 {
+	pointer-events: none;
+    background-color: yellow;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 441.06;
+    left: 488.04;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 10.92;
+    width: 12.6;
+}
+#light6 {
+	pointer-events: none;
+    background-color: yellow;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 462.46;
+    left: 488.04;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 10.92;
+    width: 12.6;
+}
+
+#light7 {
+	pointer-events: none;
+    background-color: yellow;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 485.74;
+    left: 488.04;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 10.92;
+    width: 12.6;
+}
+#light8 {
+	pointer-events: none;
+    background-color: yellow;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 508.42;
+    left: 488.04;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 10.92;
+    width: 12.6;
+}
+
+#coin {
+	pointer-events: none;
+    background-color: #FFD700;
+	
+    border: 0.5px solid #fff;
+	border-radius: 50px;
+	opacity: 0;
+	
+	transition: 0.2s ease;
+	    top: 625.5px;
+    left: 288px;
+	
+    position: absolute;
+    z-index: 11;
+	 height: 28px;
+    width: 5px;
+}
